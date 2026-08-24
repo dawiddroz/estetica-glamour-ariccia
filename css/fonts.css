@@ -87,3 +87,6 @@
   font-display: swap;
   src: url('../fonts/jost-600.woff2') format('woff2');
 }
+
+/* ANTI-CLS: i pesi secondari non causano reflow se arrivano tardi */
+@font-face { font-family: 'Jost'; src: url('../fonts/jost-300.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: optional; }
