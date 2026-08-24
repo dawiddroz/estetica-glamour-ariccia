@@ -126,3 +126,9 @@ html.force-visible [data-reveal] { opacity: 1 !important; }
   .section { padding-block: var(--space-l); }
   .section-head { grid-template-columns: 1fr; gap: var(--space-m); align-items: start; }
 }
+
+/* ============ ANTI-CLS ============ */
+.hero-title { min-height: 2.3em; }
+.hero-sub { min-height: 3.2em; }
+.hero-grid { min-height: 520px; }
+@media (max-width: 900px) { .hero-grid { min-height: 0; } .hero-title{min-height:0} .hero-sub{min-height:0} }
